@@ -1,0 +1,45 @@
+/* global.css */
+
+:root {
+  --color-background: #fafafa;
+  --color-text: #333;
+  --color-link: #007bff;
+  --color-link-hover: underline;
+  --font-family: "Roboto", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--color-background);
+  color: var(--color-text);
+}
+
+h1,
+h2,
+h3,
+p,
+a {
+  font-family: var(--font-family);
+}
+
+h1,
+h2,
+h3 {
+  margin-bottom: 1rem;
+  --font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-link);
+}
+
+a:hover {
+  text-decoration: var(--color-link-hover);
+}
